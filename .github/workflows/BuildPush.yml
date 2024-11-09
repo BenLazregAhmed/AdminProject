@@ -23,4 +23,4 @@ jobs:
         run: docker image build -t ahmedevops/simplewebdev -f Dockerfile.dev .
 
       - name: Push image
-        run: docker image push ahmedvops/simplewebdev
+        run: docker image push ahmedevops/simplewebdev
